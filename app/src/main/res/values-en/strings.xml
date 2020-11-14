@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Personas</string>
+    <string name="titulo_crear_personas">Create Person</string>
+    <string name="cedula">ID</string>
+    <string name="nombre">Name</string>
+    <string name="apellido">Last Name</string>
+    <string name="guardar">Save</string>
+    <string name="limpiar">Clear</string>
+</resources>
