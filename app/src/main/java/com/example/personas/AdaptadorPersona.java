@@ -16,7 +16,7 @@ public class AdaptadorPersona extends BaseAdapter {
     private ArrayList<Persona> personas;
     private Resources res;
 
-    public AdaptadorPersona(Context context, ArrayList<Persona> personas){
+    public AdaptadorPersona(Context contexto, ArrayList<Persona> personas){
         this.contexto=contexto;
         this.personas=personas;
     }
@@ -39,12 +39,12 @@ public class AdaptadorPersona extends BaseAdapter {
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         // Definir las variables a usar
-        res=contexto.getResources();
-        View v=convertView;
+        res = contexto.getResources();
+        View v = convertView;
 
         //  Crear el objeto LayoutInflater para modificar la vista
         LayoutInflater inf=(LayoutInflater) contexto.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        v=inf.inflate(R.layout.item_persona, null);
+        v = inf.inflate(R.layout.item_persona, null);
 
         // Captura de los elementos de la vista
         ImageView foto= v.findViewById(R.id.imgFoto);
