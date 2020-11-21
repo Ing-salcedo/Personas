@@ -7,7 +7,7 @@
     <ImageView
         android:id="@+id/imgFoto"
         android:layout_width="108dp"
-        android:layout_height="89dp"
+        android:layout_height="88dp"
         app:srcCompat="@drawable/images" />
 
     <LinearLayout
